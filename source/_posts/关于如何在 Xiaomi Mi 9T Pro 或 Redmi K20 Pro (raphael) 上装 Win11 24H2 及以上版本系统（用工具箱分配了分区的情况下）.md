@@ -28,16 +28,17 @@ updated:
 ## 正文
 
 最近想在 Xiaomi Mi 9T Pro / Redmi K20 Pro (raphael) 上，通过 Mindows 工具箱安装 Windows 11 IoT 企业版 LTSC 2024，**突然发现 Mindows 工具箱还不支持 24H2 及以上版本 WIM，选择之后会报错**。如图所示：
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250415/250415-1.png)
+
+![](https://host.dorahonor.me/images/250415/250415-1.png)
 
 那么我是如何解决的？首先按住音量下键和电源键进入 Fastboot 模式连接电脑，然后在工具箱主界面选择【进入大容量模式】，再在工具箱中选择第 1 项，使用 `fastboot boot` 命令临时进入大容量挂载模式。
 
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250415/250415-2.png)
+![](https://host.dorahonor.me/images/250415/250415-2.png)
 
 一切就绪之后，先进入文件资源管理器查看系统盘是否有盘符，如果有，则使用 Dism++ 释放到该分区。
 
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250415/250415-3.png)
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250415/250415-4.png)
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250415/250415-5.png)
+![](https://host.dorahonor.me/images/250415/250415-3.png)  
+![](https://host.dorahonor.me/images/250415/250415-4.png)  
+![](https://host.dorahonor.me/images/250415/250415-5.png)
 
 提示「还原成功」后，回到工具箱，分别进行【修复系统引导】【安装、删除驱动】【跳过开机向导】即可。

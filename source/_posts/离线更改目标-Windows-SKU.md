@@ -1,6 +1,9 @@
 ---
 title: 离线更改目标 Windows SKU
-tags: Windows
+tags:
+  - Windows
+  - SKU
+  - Dism
 categories: 教程
 abbrlink: 1148508445
 date: 2025-07-27 23:01:45

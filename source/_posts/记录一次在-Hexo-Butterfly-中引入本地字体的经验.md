@@ -27,25 +27,25 @@ date: 2025-11-11 02:30:07
 
 先在 `/source/` 里创建 `fonts` 文件夹，把所需 `*.woff`、`*.woff2` 格式字体复制进去。
 
-![MiSans](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/251111/01.png)
+![MiSans](https://host.dorahonor.me/251111/01.png)
 
 ### 导入 Google Fonts
 
 进入 [Google Fonts 官网](https://fonts.google.com/)。
 
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/251111/gf1.webp)
+![](https://host.dorahonor.me/251111/gf1.webp)
 
 搜索上述字体，对所有字体都选择右上角的【Get font】加入购物车。
 
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/251111/gf2.webp)
+![](https://host.dorahonor.me/251111/gf2.webp)
 
 单击页面右上角的购物车按钮，选择右侧的【Get embed code】。
 
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/251111/gf3.webp)
+![](https://host.dorahonor.me/251111/gf3.webp)
 
 在 Web 栏中选择 `@import` 单选框，在第一个代码框中将 `<style>` 和 `</style>` 内的链接复制出来。
 
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/251111/gf4.webp)
+![](https://host.dorahonor.me/251111/gf4.webp)
 
 ``` CSS
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100..900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+SC:wght@100..900&family=Noto+Sans+TC:wght@100..900&family=Noto+Serif+HK:wght@200..900&family=Noto+Serif+JP:wght@200..900&family=Noto+Serif+KR:wght@200..900&family=Noto+Serif+SC:wght@200..900&family=Noto+Serif+TC:wght@200..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap")

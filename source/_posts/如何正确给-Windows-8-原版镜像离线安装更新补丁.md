@@ -53,16 +53,16 @@ date: 2025-07-30 09:44:55
 > [!caution]
 > 注意挂载目录要先创建，**不能是根目录、有文件的目录、非半角英文数字字符目录！**
 
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250730/01.png)  
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250730/02.png)
+![](https://host.dorahonor.me/images/250730/01.png)  
+![](https://host.dorahonor.me/images/250730/02.png)
 
 #### 启用 .NET Framework 3.5
 
 1. 打开会话，选择【程序和功能】—【Windows 功能】，查看是否有本地源。
-  ![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250730/03.png)
+  ![](https://host.dorahonor.me/images/250730/03.png)
 2. 如有则双击【.NET Framework 3.5 (包括 .NET 2.0 和 3.0)】复选框，将其变成填充状态以启用 .NET Framework 3.5。
 3. 选择【应用】，等待一段时间后就启用了。
-  ![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250730/04.png)
+  ![](https://host.dorahonor.me/images/250730/04.png)
 
 > [!note]
 > 保险起见，最好先保存映像，避免因后续失败而花大量时间重做。
@@ -74,12 +74,12 @@ date: 2025-07-30 09:44:55
 
 1. 解压 [Windows 8 安装 IE 11 和 .NET 4 先决更新补丁](https://gitlab.com/stdout12/adns/uploads/c7c9f583da309adfb5f7a621ff3cf218/W8_NetFx4_IE11_Prereqs.7z)，里面有 `x64` 和 `x86` 文件夹，分别代表 64 位和 32 位，根据镜像位宽选择即可。以下以 64 位为例。
 2. 在 Dism++ 选择【更新管理】—【Windows Update】—【添加】，找到先决更新补丁所在位置，进入 `x64` 文件夹，先选中以 `Microsoft-Windows-Embedded-SKU` 开头的全部 `MUM` 文件，然后单击【打开】安装 SKU 更新，等待一段时间。
-  ![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250730/05.png)  
-  ![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250730/06.png)
-  ![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250730/07.png)
+  ![](https://host.dorahonor.me/images/250730/05.png)  
+  ![](https://host.dorahonor.me/images/250730/06.png)
+  ![](https://host.dorahonor.me/images/250730/07.png)
 1. 重复上一个步骤，选中 `Microsoft-Windows-Embedded-IE-Desktop-Package~31bf3856ad364e35~amd64~~6.2.9200.16384.mum`、`Microsoft-Windows-Embedded-NetFx4Extended-Package~31bf3856ad364e35~amd64~~6.2.9200.16384.mum` 和以 `Microsoft-Windows-Embedded-NetFx4` 开头的更新补丁，单击【打开】安装 SKU 更新，等待一段时间。
-  ![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250730/08.png)
-  ![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250730/09.png)
+  ![](https://host.dorahonor.me/images/250730/08.png)
+  ![](https://host.dorahonor.me/images/250730/09.png)
 
 > [!note]
 > 保险起见，最好先保存映像，避免因后续失败而花大量时间重做。
@@ -89,9 +89,9 @@ date: 2025-07-30 09:44:55
 #### 安装 IE 11
 
 1. 重复上述安装步骤，找到 IE 11 及语言包更新补丁所在位置，先选择 `ie11-win6.2_8d823347334b5cb35a0d174a4267e03a8ae8ccc0.msu` 打开安装 IE 11，等待一段时间。
-  ![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250730/10.png)
+  ![](https://host.dorahonor.me/images/250730/10.png)
 2. 然后选择 `ie11-windows6.2-languagepack-x64-*.msu` 语言包更新补丁，安装 IE 11 语言包，等待一段时间。
-  ![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250730/11.png)
+  ![](https://host.dorahonor.me/images/250730/11.png)
 
 > [!note]
 > 保险起见，最好先保存映像，避免因后续失败而花大量时间重做。
@@ -100,9 +100,9 @@ date: 2025-07-30 09:44:55
 
 1. 解压安装器，将 .NET Framework 4.8 及语言包更新补丁放在和 .NET Framework 4 安装器同一个目录。
 2. 右键单击 `NET48.cmd`，在弹出的快捷菜单中选择【以管理员身份运行】。
-  ![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250730/12.png)
+  ![](https://host.dorahonor.me/images/250730/12.png)
 3. 输入所在的 WIM 挂载路径，按 Enter 执行安装。
-  ![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250730/13.png)
+  ![](https://host.dorahonor.me/images/250730/13.png)
 4. 在 Dism++ 保存映像，然后卸载。
 
 > [!note]
@@ -111,20 +111,20 @@ date: 2025-07-30 09:44:55
 ### 使用 BypassESU-Blue-v2 安装 ESU 破解补丁
 
 1. 解压 `BypassESU-Blue-v2.7z` 压缩包，找到所在位置，右键单击 `Wim-Integration.cmd`，在弹出的快捷菜单中选择【以管理员身份运行】。
-  ![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250730/14.png)
+  ![](https://host.dorahonor.me/images/250730/14.png)
 2. 输入 WIM 映像所在路径，按 Enter 进入下一步。
-  ![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250730/15.png)
+  ![](https://host.dorahonor.me/images/250730/15.png)
 3. 等待检测，按 <2> 进行安装。
-  ![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250730/16.png)  
-  ![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250730/17.png)
+  ![](https://host.dorahonor.me/images/250730/16.png)  
+  ![](https://host.dorahonor.me/images/250730/17.png)
 
 ### 使用 WSUS Offline Update 下载更新补丁
 
 1. 解压 WSUS Offline 压缩包，右键单击 `UpdateGenerator.exe`，选择【以管理员身份运行】。
 2. 选择 [Legacy products]，在 [Windows 8 / Server 2012] 处勾选 [x64 Global]，Option 处按照截图勾选。
-  ![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250730/18.png)
+  ![](https://host.dorahonor.me/images/250730/18.png)
 3. 单击 [Start] 开始下载更新补丁。等待一段时间。
-  ![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250730/19.png)
+  ![](https://host.dorahonor.me/images/250730/19.png)
 
 > [!note]
 > 更新补丁下载在程序目录的 `cilent\w62-x64\glb` 处。
@@ -132,12 +132,12 @@ date: 2025-07-30 09:44:55
 ### 使用 NTLite 安装更新补丁
 
 1. 打开 NTLite，将 WIM 拖进窗口，双击分卷挂载 WIM。
-  ![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250730/20.png)
+  ![](https://host.dorahonor.me/images/250730/20.png)
 2. 找到补丁的下载位置，选中除 `ie11-*.cab` 和 `windows8-rt-kb2966827-x64_6d16009f8bdb735822cfb385d3ecf2c7b74a567a.cab` 外的所有更新补丁包，将其拖入 NTLite 的【更新整合】处，等待分析一段时间。
-  ![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250730/21.png)  
-  ![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250730/22.png)
+  ![](https://host.dorahonor.me/images/250730/21.png)  
+  ![](https://host.dorahonor.me/images/250730/22.png)
 3. 完成后，选择【结束】下的【应用】，再单击【工具栏】选项卡下的【开始】，确认应用更改。
-  ![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250730/23.png)
+  ![](https://host.dorahonor.me/images/250730/23.png)
 
 > [!note]
 > 更新补丁安装需要等待一段时间。
@@ -151,10 +151,10 @@ date: 2025-07-30 09:44:55
 
 - 此步略。
 
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250730/24.png)  
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250730/25.png)  
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250730/26.png)  
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/250730/27.png)
+![](https://host.dorahonor.me/images/250730/24.png)  
+![](https://host.dorahonor.me/images/250730/25.png)  
+![](https://host.dorahonor.me/images/250730/26.png)  
+![](https://host.dorahonor.me/images/250730/27.png)
 
 ---
 

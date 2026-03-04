@@ -51,12 +51,12 @@ date: 2025-12-21 02:33:14
 
 在页面选择【Code】—【Download ZIP】进行下载。
 
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/251221/01.webp)
+![](https://host.dorahonor.me/images/251221/01.webp)
 
 将依赖解压到 `你的工作目录\source\live2d-widget` 目录，如果 `source` 下没有 `live2d-widget` 目录，解压时会自动创建。
 
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/251221/02.webp)  
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/251221/03.webp)
+![](https://host.dorahonor.me/images/251221/02.webp)  
+![](https://host.dorahonor.me/images/251221/03.webp)
 
 > [!tip]
 > 你也可以在 Git Bash 或其他终端使用 `git clone` 命令来下载到本地。
@@ -134,17 +134,17 @@ const live2d_path = '/live2d-widget/dist/';
 
 在 Steam 库找到 Live2DViewerEX，选择【启动】，在弹出的对话框中选择【启动 Live2DViewerEX】—【开始游戏】。
 
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/251221/04.webp)
+![](https://host.dorahonor.me/images/251221/04.webp)
 
 在任务栏找到 Live2DViewerEX 图标，双击打开界面，找到并单击右侧的【批量导出】按钮。
 
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/251221/05.webp)  
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/251221/06.webp)
+![](https://host.dorahonor.me/images/251221/05.webp)  
+![](https://host.dorahonor.me/images/251221/06.webp)
 
 选择你所需导出的模型，完成后单击【确认】，找到所需导出的路径，单击【选择文件夹】。
 
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/251221/07.webp)  
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/251221/08.webp)
+![](https://host.dorahonor.me/images/251221/07.webp)  
+![](https://host.dorahonor.me/images/251221/08.webp)
 
 稍后会自动打开所在文件夹。
 
@@ -155,8 +155,8 @@ const live2d_path = '/live2d-widget/dist/';
 
 选中全部 `*.wpk` 包，右键单击选中的文件，在弹出的快捷菜单中选择【显示更多选项】—【7-Zip】——【解压到 "\\*"】。
 
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/251221/09.webp)  
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/251221/10.webp)
+![](https://host.dorahonor.me/images/251221/09.webp)  
+![](https://host.dorahonor.me/images/251221/10.webp)
 
 > [!tip]
 > 对于 Windows 10 及以下版本，或将 Windows 11 右键菜单的「更多选项」设为默认显示状态下，则在快捷菜单中选择【7-Zip】——【解压到 "\\*"】。
@@ -170,20 +170,20 @@ const live2d_path = '/live2d-widget/dist/';
 
 进入工具解压的目录，运行根目录下的 `lpk-unpack.exe`。
 
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/251221/11.webp)
+![](https://host.dorahonor.me/images/251221/11.webp)
 
 在程序界面单击【选择文件夹】，找到解压的各 LPK 模型共存的根目录，单击【选择文件夹】。
 
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/251221/12.webp)  
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/251221/13.webp)
+![](https://host.dorahonor.me/images/251221/12.webp)  
+![](https://host.dorahonor.me/images/251221/13.webp)
 
 程序会自动搜索 LPK 模型，全选并选择【解压选中文件】。
 
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/251221/14.webp)
+![](https://host.dorahonor.me/images/251221/14.webp)
 
 如果解压成功，在各模型编号下找到 `character` 文件夹，内部会有 `character-costume.model3.json` 文件以打开 Live2D 模型。
 
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/251221/15.webp)
+![](https://host.dorahonor.me/images/251221/15.webp)
 
 ### 将解压出的 Live2D 模型放至项目文件夹
 
@@ -192,7 +192,7 @@ const live2d_path = '/live2d-widget/dist/';
 
 在 `你的工作目录\source\live2d-widget\dist` 中新建一个 `model` 文件夹，将重命名好的已被解包的模型文件夹复制进去。
 
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/251221/16.webp)
+![](https://host.dorahonor.me/images/251221/16.webp)
 
 ### 在配置文件中引入 Live2D 模型
 
@@ -288,11 +288,11 @@ hexo clean && hexo server
 # 或者直接使用 hexo server
 ```
 
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/251221/17.webp)
+![](https://host.dorahonor.me/images/251221/17.webp)
 
 待终端出现 `localhost` 地址后，按住 `Ctrl` 并单击打开链接查看预览。
 
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/251221/18.webp)
+![](https://host.dorahonor.me/images/251221/18.webp)
 
 如果没有问题，关闭页面，回到 VS Code 的终端，按 `Ctrl-C` 停止预览服务器。
 
@@ -305,7 +305,7 @@ hexo clean && hexo server
 - 展示 Live2D 模型需要一定的性能，尽量使用高性能独显。如果你的笔记本电脑有独显，建议你在设置中将浏览器使用显卡设置为「高性能」，避免集显性能不足导致的卡顿。
 - 最好控制模型体积，尽量不选特效太丰富的模型。
 
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/251221/19.webp)
+![](https://host.dorahonor.me/images/251221/19.webp)
 
 ## 参考资料和注释
 

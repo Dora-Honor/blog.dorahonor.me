@@ -15,11 +15,11 @@ date: 2025-12-17 05:27:05
 
 进入【ARMOURY CRATE】，在侧边栏选择【设备】找到【你的机型】。
 
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/251217/01.png)  
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/251217/02.png)
+![](https://host.dorahonor.me/images/251217/01.png)  
+![](https://host.dorahonor.me/images/251217/02.png)
 
 进入系统设置，确保显示模式为非独显模式，并断开电源。
 
 关闭【上佳屏幕亮度】。此时接上电源也不受影响。
 
-![](https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/251217/03.png)
+![](https://host.dorahonor.me/images/251217/03.png)
