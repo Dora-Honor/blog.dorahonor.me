@@ -21,9 +21,17 @@
       link: https://butterfly.js.org/
       avatar: https://butterfly.js.org/img/butterfly-icon.png
       descr: A Simple and Card UI Design theme for Hexo
-    - name: GitHub, GitHub Pages
+    - name: Vercel
+      link: https://vercel.com/
+      avatar: /img/background/vercel-icon-dark.svg
+      descr: 全球领先的前端云平台
+    - name: Waline
+      link: https://waline.js.org/
+      avatar: /img/background/waline.png
+      descr: 一款简洁、安全的评论系统。
+    - name: GitHub
       link: https://github.com/
-      avatar: https://raw.githubusercontent.com/Dora-Honor/mskk-blog/23032661ec37d5c643e4c852936ce2921ea46d18/Images/background/github-mark.svg
+      avatar: /img/background/github-mark.svg
       descr: 全球最大的代码托管站
 
 - class_name: 我的其他项目
@@ -31,23 +39,23 @@
   link_list:
     - name: 旧站点
       link: https://docsify.dorahonor.me
-      avatar: https://cdn.jsdelivr.net/gh/Dora-Honor/mskk-blog/favicon.ico
+      avatar: /img/pwa/apple-touch-icon.png
       descr: 使用 docsify 搭建的旧站点
     - name: leadership-kcgi
       link: https://leadership.dorahonor.me
-      avatar: https://raw.githubusercontent.com/Dora-Honor/mskk-blog/23032661ec37d5c643e4c852936ce2921ea46d18/Images/background/github-mark.svg
+      avatar: /img/background/github-mark.svg
       descr: leadership-kcgi 项目主页（日语）
     - name: Hexo NexT 站点
       link: https://hexonext.dorahonor.me
-      avatar: https://cdn.jsdelivr.net/gh/Dora-Honor/mskk-blog/favicon.ico
+      avatar: /img/pwa/apple-touch-icon.png
       descr: 使用 Hexo 框架和 NexT 主题搭建的站点（开发中）
     - name: Hugo Stack 站点
       link: https://hugo.dorahonor.me
-      avatar: https://cdn.jsdelivr.net/gh/Dora-Honor/mskk-blog/favicon.ico
+      avatar: /img/pwa/apple-touch-icon.png
       descr: 使用 Hugo 框架和 Stack 主题搭建的站点（开发中）
     - name: Hugo Blowfish 站点
       link: https://hugo2.dorahonor.me
-      avatar: https://cdn.jsdelivr.net/gh/Dora-Honor/mskk-blog/favicon.ico
+      avatar: /img/pwa/apple-touch-icon.png
       descr: 使用 Hugo 框架和 Blowfish 主题搭建的站点（开发中）
     - name: VPTH 博客
       link: https://vpthblog.dorahonor.me
