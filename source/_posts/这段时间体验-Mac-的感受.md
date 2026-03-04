@@ -15,7 +15,7 @@ categories:
 ## 前言
 
 > [!note]
-> 以下体验基于 2017 款 MacBook Pro，型号 A1708，Intel Core i5 双核、8+256、Thunderbolt 3 ×2
+> 以下体验基于 2017 款 MacBook Pro，型号 A1708，Intel Core i5 双核、8+256、Thunderbolt 3 ×2。
 
 今年 1 月中旬心血来潮，想着放假回国整一台 MacBook Pro 体验一下 macOS。
 

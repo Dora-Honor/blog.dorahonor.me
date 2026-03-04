@@ -8,7 +8,7 @@ date: 2025-07-27 23:01:45
 
 ## 使用注意
 
-以下命令**均要以管理员身份在 `cmd` 或 `PowerShell` 中运行。**
+以下命令**均要以管理员身份在 `PowerShell` 或 `PowerShell` 中运行。**
 
 ## Windows 8 (NT 6.2, build 9200)
 
@@ -20,21 +20,21 @@ date: 2025-07-27 23:01:45
 
 首先要挂载目标镜像，输入以下命令（也可使用 [Dism++](https://github.com/Chuyu-Team/Dism-Multi-Language) 挂载）：
 
-``` cmd
+``` PowerShell
 dism /Mount-Image /ImageFile:X:\xxx\xxx.wim /Index:x /MountDir:X:\xxxx
 :: 「X」处需自行替换成自己镜像的对应目录。
 ```
 
 挂载完后，执行 `dism /Image:X:\xxxx /Get-TargetEditions` 命令，获取目标 SKU。
 
-``` cmd
+``` PowerShell
 dism /Image:X:\xxxx /Get-TargetEditions
 :: 「X」处需自行替换成自己镜像的对应目录。
 ```
 
 然后执行 `dism /Image:X:\xxxx /Set-TargetEdition:ProfessionalWMC` 命令，将专业版转换为带 WMC 的专业版。
 
-``` cmd
+``` PowerShell
 dism /Image:X:\xxxx /Set-TargetEdition:ProfessionalWMC
 :: 「X」处需自行替换成自己镜像的对应目录。
 ```
@@ -42,7 +42,7 @@ dism /Image:X:\xxxx /Set-TargetEdition:ProfessionalWMC
 最后别忘记保存并卸载镜像，完成操作。
 > 在 [Dism++](https://github.com/Chuyu-Team/Dism-Multi-Language) 则要先保存（选择【直接保存】）后再卸载。
 
-``` cmd
+``` PowerShell
 dism /Unmount-Image /MountDir:X:\xxxx /commit
 :: 「X」处需自行替换成自己镜像的对应目录。最后的 /commit 保存更改命令不要遗漏。
 ```
@@ -58,21 +58,21 @@ dism /Unmount-Image /MountDir:X:\xxxx /commit
 
 首先要挂载目标镜像，输入以下命令（也可使用 [Dism++](https://github.com/Chuyu-Team/Dism-Multi-Language) 挂载）：
 
-``` cmd
+``` PowerShell
 dism /Mount-Image /ImageFile:X:\xxx\xxx.wim /Index:x /MountDir:X:\xxxx
 :: 「X」处需自行替换成自己镜像的对应目录。
 ```
 
 挂载完后，执行 `dism /Image:X:\xxxx /Get-TargetEditions` 命令，获取目标 SKU。
 
-``` cmd
+``` PowerShell
 dism /Image:X:\xxxx /Get-TargetEditions
 :: 「X」处需自行替换成自己镜像的对应目录。
 ```
 
 然后执行 `dism /Image:X:\xxxx /Set-TargetEdition:ProfessionalWMC` 命令，将专业版转换为带 WMC 的专业版。
 
-``` cmd
+``` PowerShell
 dism /Image:X:\xxxx /Set-TargetEdition:ProfessionalWMC
 :: 「X」处需自行替换成自己镜像的对应目录。
 ```
@@ -80,7 +80,7 @@ dism /Image:X:\xxxx /Set-TargetEdition:ProfessionalWMC
 最后别忘记保存并卸载镜像，完成操作。
 > 在 [Dism++](https://github.com/Chuyu-Team/Dism-Multi-Language) 则要先保存（选择【直接保存】）后再卸载。
 
-``` cmd
+``` PowerShell
 dism /Unmount-Image /MountDir:X:\xxx /commit
 :: 「X」处需自行替换成自己镜像的对应目录。最后的 /commit 保存更改命令不要遗漏。
 ```
@@ -92,22 +92,22 @@ dism /Unmount-Image /MountDir:X:\xxx /commit
 
 首先要挂载目标镜像，输入以下命令（也可使用 [Dism++](https://github.com/Chuyu-Team/Dism-Multi-Language) 挂载）：
 
-``` cmd
+``` PowerShell
 dism /Mount-Image /ImageFile:X:\xxx\xxx.wim /Index:x /MountDir:X:\xxxx
 :: 「X」处需自行替换成自己镜像的对应目录。
 ```
 
 挂载完后，执行 `dism /Image:X:\xxxx /Get-TargetEditions` 命令，获取目标 SKU。
 
-``` cmd
+``` PowerShell
 dism /Image:X:\xxxx /Get-TargetEditions
 :: 「X」处需自行替换成自己镜像的对应目录。
 ```
 
-然后执行 `dism /Image:X:\xxxx /Set-TargetEdition:IoTEnterpriseS` 命令，转换为带 IoT 的 LTSC 版。
+然后执行 `dism /Image:X:\xxxx /Set-Edition:IoTEnterpriseS` 命令，转换为带 IoT 的 LTSC 版。
 
-``` cmd
-dism /Image:X:\xxxx /Set-TargetEdition:IoTEnterpriseS
+``` PowerShell
+dism /Image:X:\xxxx /Set-Edition:IoTEnterpriseS
 :: 「X」处需自行替换成自己镜像的对应目录。
 ```
 
