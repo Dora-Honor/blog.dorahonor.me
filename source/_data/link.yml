@@ -65,6 +65,10 @@
       link: https://vpthdocs.dorahonor.me
       avatar: https://theme-hope-assets.vuejs.press/logo.svg
       descr: 使用 VuePress 框架和 Hope 主题搭建的文档站点（开发中）
+    - name: 我的图床
+      link: https://img.dorahonor.me/
+      avatar: https://img.dorahonor.me/apple-touch-icon.png
+      descr: 使用 GitHub 和 Vercel 搭建的图床站点
 
 - class_name: 我的朋友们
   class_desc: My Friends
