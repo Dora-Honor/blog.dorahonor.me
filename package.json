@@ -46,7 +46,7 @@
     "mdit-plugin-callouts": "^1.2.0"
   },
   "devDependencies": {
-    "@mdit/plugin-alert": "^0.23.1",
+    "@mdit/plugin-alert": "^0.23.2",
     "@mdit/plugin-img-size": "^0.23.1"
   }
 }
