@@ -256,6 +256,14 @@
     "tapBody": ["是…是不小心碰到了吧…", "萝莉控是什么呀？", "你看到我的小熊了吗？", "再摸的话我可要报警了！⌇●﹏●⌇", "110 吗，这里有个变态一直在摸我(ó﹏ò｡)", "不要摸我了，我会告诉老婆来打你的！", "干嘛动我呀！小心我咬你！", "别摸我，有什么好摸的！"]
   },
   "models": [{
+    "name": "Firefly",
+    "paths": ["/live2d-widget/dist/model/Firefly/character-costume.model3.json"],
+    "message": "嗨，又见面啦……我的意思，很高兴见到你。和往常一样，叫我「流萤」吧。"
+  }, {
+    "name": "Cyrene",
+    "paths": ["/live2d-widget/dist/model/Cyrene/character-costume.model3.json"],
+    "message": "这是命运的邂逅吗，还是……久别重逢呢？真让人心跳加速呀，那……就像初遇时那样，再一次呼唤我「昔涟」，好吗？"
+  }, {
     "name": "Furina",
     "paths": ["/live2d-widget/dist/model/Furina/Furina.model3.json"],
     "message": "站在你面前的，就是枫丹人人皆知的大明星——芙宁娜哦！"
@@ -271,14 +279,6 @@
     "name": "Elysia",
     "paths": ["/live2d-widget/dist/model/Elysia/character-costume.model3.json"],
     "message": "你已知晓了我的过去，作为交换，我想见证你的「未来」。"
-  }, {
-    "name": "Firefly",
-    "paths": ["/live2d-widget/dist/model/Firefly/character-costume.model3.json"],
-    "message": "嗨，又见面啦……我的意思，很高兴见到你。和往常一样，叫我「流萤」吧。"
-  }, {
-    "name": "Cyrene",
-    "paths": ["/live2d-widget/dist/model/Cyrene/character-costume.model3.json"],
-    "message": "这是命运的邂逅吗，还是……久别重逢呢？真让人心跳加速呀，那……就像初遇时那样，再一次呼唤我「昔涟」，好吗？"
   }, {
     "name": "Potion-Maker/Pio",
     "paths": ["https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/model/Potion-Maker/Pio/index.json"],
