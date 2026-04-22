@@ -1,6 +1,5 @@
 ---
 title: 如何突破「启动转换助理」的 4 GB WIM 限制
-date: 2026-02-28 13:08:45
 tags:
   - Mac
   - Windows
@@ -10,6 +9,8 @@ tags:
   - 技术
 categories:
   - 经验总结
+abbrlink: 1019042940
+date: 2026-02-28 13:08:45
 ---
 
 > [!caution]

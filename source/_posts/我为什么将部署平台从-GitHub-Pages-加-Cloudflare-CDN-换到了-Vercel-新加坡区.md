@@ -1,6 +1,5 @@
 ---
 title: 我为什么将部署平台从 GitHub Pages 加 Cloudflare CDN 换到了 Vercel 新加坡区
-date: 2026-03-03 22:50:38
 tags:
   - 折腾
   - 网络
@@ -14,6 +13,8 @@ tags:
   - GitHub Pages
 categories:
   - 经验总结
+abbrlink: 3361145490
+date: 2026-03-03 22:50:38
 ---
 
 从去年 6 月份折腾博客开始，平时我一直在网上冲浪，学习前辈们的各种搭建博客经验。
