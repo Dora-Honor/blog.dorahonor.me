@@ -19,7 +19,7 @@
     "hexo-algoliasearch": "^2.0.1",
     "hexo-deployer-git": "^4.0.0",
     "hexo-filter-nofollow": "^2.0.2",
-    "hexo-filter-titlebased-link": "^0.3.2",
+    "hexo-filter-titlebased-link": "^0.3.3",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-feed": "^4.0.0",
