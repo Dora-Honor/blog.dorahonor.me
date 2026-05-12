@@ -25,7 +25,7 @@ categories: 经验总结
 
 ### 新加坡
 
-![Apple Music](https://img.dorahonor.me/2026/05/12/100853.webp)
+![Apple Music](https://img.dorahonor.me/2026/05/12/101127.webp)
 
 ![App Store](https://img.dorahonor.me/2026/05/12/101214.webp)
 
