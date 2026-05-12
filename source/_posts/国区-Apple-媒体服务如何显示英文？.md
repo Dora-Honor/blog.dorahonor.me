@@ -63,7 +63,9 @@ categories: 经验总结
 
 ### 网页端
 
-编辑地址栏，在 Apple Music 或 App Store 网页端网址后面加上 `l=en` 或者 `l=en-GB` 即生效。
+所幸 Apple 并未移除国区媒体服务原本的英文支持。
+
+编辑地址栏，在 Apple Music 或 App Store 网页端网址后面加上 `?l=en` 或者 `?l=en-GB` 即生效。
 
 ![](https://img.dorahonor.me/2026/05/12/104329_15.webp)
 
@@ -80,3 +82,11 @@ categories: 经验总结
 ![](https://img.dorahonor.me/2026/05/12/105256_19.webp)
 
 ![](https://img.dorahonor.me/2026/05/12/105256_20.webp)
+
+### 「为什么我改了英文，内容却还是中文？」
+
+国区支持的是英式英文[^1]，而不是美式英文[^2]，只有改成前者才会生效。
+
+[^1]: English (United Kingdom), English (UK), `en-GB`
+
+[^2]: English (United States), English (US), `en-US`
