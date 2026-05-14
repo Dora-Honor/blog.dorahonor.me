@@ -40,7 +40,7 @@
     "hexo-wordcount": "^6.0.1",
     "markdown-it-anchor": "^9.2.0",
     "markdown-it-merge-cells": "^2.0.0",
-    "markdown-it-obsidian-callouts": "^0.3.3",
+    "markdown-it-obsidian-callouts": "^0.3.4",
     "markdown-it-task-checkbox": "^1.0.6",
     "markdown-it-task-lists": "^2.1.1",
     "mdit-plugin-callouts": "^1.2.0"
