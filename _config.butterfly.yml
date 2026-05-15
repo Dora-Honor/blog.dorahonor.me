@@ -736,7 +736,7 @@ waline:
     # UI: https://comment.dorahonor.me/ui
   bg: /img/background/citlali.webp
   # Use Waline pageview count as the page view count
-  pageview: false
+  pageview: true
   option:
     requiredMeta: ["nick", "mail"]
     reaction: true
