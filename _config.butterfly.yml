@@ -739,7 +739,16 @@ waline:
   pageview: true
   option:
     requiredMeta: ["nick", "mail"]
-    reaction: true
+    reaction:
+      - https://unpkg.com/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_wow.webp
+      - https://unpkg.com/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_silent.webp
+      - https://unpkg.com/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_solace.webp
+      - https://unpkg.com/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_sweating_bullets.webp
+      - https://unpkg.com/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_for_sure.webp
+      - https://unpkg.com/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_sleep.webp
+      - https://unpkg.com/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_well_done.webp
+      - https://unpkg.com/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_good_dish.webp
+      - https://unpkg.com/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_gasped.webp
     emoji:
       - https://unpkg.com/@waline/emojis@1.2.0/bmoji
       - https://unpkg.com/@waline/emojis@1.1.0/weibo

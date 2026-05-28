@@ -1,6 +1,5 @@
 ---
 title: 国区 Apple 媒体服务如何显示英文？
-date: 2026-05-12 09:51:56
 tags:
   - Apple
   - 苹果
@@ -9,6 +8,8 @@ tags:
   - Apple 账户
   - Apple ID
 categories: 经验总结
+abbrlink: 660621106
+date: 2026-05-12 09:51:56
 ---
 
 ## 前言
