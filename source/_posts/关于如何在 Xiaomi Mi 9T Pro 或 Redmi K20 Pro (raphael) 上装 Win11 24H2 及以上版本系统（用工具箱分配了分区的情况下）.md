@@ -6,6 +6,9 @@ tags:
   - 踩坑记录
   - Windows
   - 经验
+  - 小米
+  - MIUI
+  - HyperOS
 categories:
   - 踩坑记录
   - 经验总结
