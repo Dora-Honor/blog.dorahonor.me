@@ -1,6 +1,5 @@
 ---
 title: mskk Windows 7 SP1 简体中文最终版
-date: 2026-06-15 22:30:53
 tags:
   - Windows
   - Windows 7
@@ -8,6 +7,8 @@ tags:
   - 封装
 categories: Windows
 draft: true
+abbrlink: 2400927031
+date: 2026-06-15 22:30:53
 ---
 
 ## 系统截图
