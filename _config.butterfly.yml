@@ -29,6 +29,8 @@ menu:
   更多 || fas fa-ellipsis:
     关于: /about/ || fas fa-heart
     隐私政策: /privacy/ || fas fa-user-shield
+    规章制度: /rules/ || fas fa-gavel
+    异次元之旅: https://travel.moe/go || fas fa-plane-departure
 
 # --------------------------------------
 # Code Blocks Settings
@@ -54,7 +56,7 @@ code_blocks:
 #   icon: link || the description || color
 social:
   fas fa-house: https://dorahonor.me || Home # || '#ff6f61'
-  fas fa-link: https://home.dorahonor.me || 引导页 # || '#6f42c1'
+  # fas fa-link: https://home.dorahonor.me || 引导页 # || '#6f42c1'
   fab fa-github: https://github.com/Dora-Honor || Github # || '#24292e'
   fas fa-rss: /atom.xml || Feed # || '#ff6600'
   # fab fa-git-alt: https://github.com/Dora-Honor/blog.dorahonor.me || 源代码 Source Code || '#f05030'
@@ -311,6 +313,8 @@ footer:
               url: /about/
             - title: 隐私政策
               url: /privacy/
+            - title: 规章制度
+              url: /rules/
     - content:
         - title: 其他项目
           item:
@@ -432,15 +436,12 @@ aside:
   card_announcement:
     enable: true
     content: |
-      <p>截止 2026 年 1 月 4 日，我的官服绝区零站点<strong>已满员，不可再申请！</strong></p>
-      <hr>
-      <div align="center"><h2>关于域名更换的公告</h2></div>
-      <p>2026 年 1 月 24 日更新</p>
-      <p>经实测，使用 Cloudflare CDN 加速 GitHub Pages 站点效果在国内貌似不太好，并且也要将主域名改为个人引导页面。</p>
-      <p>目前已从 GitHub Pages 转移到 Vercel 新加坡区部署，域名也改为了 <code>blog.dorahonor.me</code>，实测访问速度有显著提升。</p>
-      <p>原有的根域名 <code>dorahonor.me</code> 在 2 月初之前仍为博客页，但建议及时更新收藏夹中的链接。</p>
-      <p>根域名 <code>dorahonor.me</code> 将在 2 月初左右换成个人引导页。欢迎访问！</p>
-      <p>感谢大家一直以来的支持与关注！</p>
+      <p>欢迎来到我的博客！</p>
+      <p>第一次来的朋友，请先阅读 <a href="/privacy/>" target="_blank">隐私政策</a> 和 <a href="/rules/" target="_blank">社区规则</a>。</p>
+      <p>目前已创建 <a href="https://t.me/dora_honor_blog" target="_blank">Telegram 频道</a>。后续如有博文更新，将会在频道中同步链接。</p>
+      <p><a href="https://t.me/dora_honor_blog" target="_blank"><img src="https://img.dorahonor.me/2026/07/14/231827_Telegram_Channel.webp" alt="Telegram 频道" width="100%"></a></p>
+      <p>也可以加入 <a href="https://qm.qq.com/q/E2OeLPpofS" target="_blank">我的咖啡馆</a> 闲聊！群号 <a href="https://qm.qq.com/q/E2OeLPpofS" target="_blank">967052586</a></p>
+      <p><a href="https://qm.qq.com/q/E2OeLPpofS" target="_blank"><img src="https://img.dorahonor.me/2026/07/14/231827_QQ_Group.webp" alt="QQ 群" width="100%"></a></p>
   card_recent_post:
     enable: true
     # If set 0 will show all
@@ -779,7 +780,7 @@ waline:
       - https://emoji.shojo.cn/bili/webp/2233娘
     locale:
       lang: zh-CN
-      placeholder: 说点什么吧（昵称和邮箱为必填项。为了你能及时收到相关回复的邮件通知，请确保邮箱的正确性！）
+      placeholder: 发言前请阅读并知悉规章制度。昵称和邮箱为必填项。为了你能及时收到相关回复的邮件通知，请确保邮箱的正确性！
 
 # Utterances
 # https://utteranc.es/
