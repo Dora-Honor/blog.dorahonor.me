@@ -740,6 +740,7 @@ waline:
   pageview: true
   option:
     requiredMeta: ["nick", "mail"]
+    turnstileKey: 0x4AAAAAAD34n3fyqXOlN2uI
     reaction:
       - https://unpkg.com/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_wow.webp
       - https://unpkg.com/@waline/emojis@1.4.0/hoyoverse-hi3/hi3_silent.webp
