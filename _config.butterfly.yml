@@ -99,7 +99,7 @@ disable_top_img: false
 default_top_img: /img/background/125931837_p0.webp
 
 # The banner image of index page
-index_img: /img/background/Columbina.webp
+index_img: /img/background/20260702.webp
 
 # The banner image of archive page
 archive_img: /img/background/125931837_p0.webp
@@ -125,7 +125,7 @@ footer_img: transparent
 
 # Website Background
 # Can set it to color or image url
-background: /img/background/Columbina.webp
+background: /img/background/20260702.webp
 
 cover:
   # Disable the cover or not
