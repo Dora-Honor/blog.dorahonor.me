@@ -44,9 +44,5 @@
     "markdown-it-task-checkbox": "^1.0.6",
     "markdown-it-task-lists": "^2.1.1",
     "mdit-plugin-callouts": "^1.2.0"
-  },
-  "devDependencies": {
-    "@mdit/plugin-alert": "^2.0.0",
-    "@mdit/plugin-img-size": "^1.1.0"
   }
 }
