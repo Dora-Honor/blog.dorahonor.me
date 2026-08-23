@@ -1,5 +1,5 @@
 ---
-title: 从个人角度，谈我为啥注销[^7]乐天移动（楽天モバイル／Rakuten Mobile）卡
+title: 从个人角度，谈我为啥注销乐天移动（楽天モバイル／Rakuten Mobile）卡
 tags:
   - 留学
   - 号卡
